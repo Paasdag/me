@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Proxima;
+    src: url(fonts/prox.otf);
+}
+
+
+.aboutme {
+    background-color: #1e1e1f;
+    border-radius: 25px;
+    width: 900px;
+    height: 550px;
+    padding: 10px;
+    border: 2px solid #383838;
+    position: absolute;
+    left: 35%;
+    top: 7.5%;
+}
+
+.abtme {
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: "Proxima";
+    color: white;
+}
+
+.me {
+    font-family: "Proxima";
+    color: white;
+    position: absolute;
+    top: 50px;
+    padding: 50px;
+}
+
+.Exp{
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: "Proxima";
+    color: white;
+    position: absolute;
+    top: 210px;
+}
+
+.exp1 {
+    background-color: #1a1c1e;
+    border-radius: 25px;
+    width: 325px;
+    height: 175px;
+    padding: 10px;
+    border: 2px solid #383838;
+    margin: 0;
+
+    position: absolute;
+    left: 6%;
+    top: 60%;
+}
+
+.programmingicon {
+    width: auto;
+    height: 50px;
+}
+
+.progamming{
+    color: white;
+    font-family: "Proxima";
+    position: absolute;
+    left: 30%;
+    top: 0%;
+}
+
+
+
+.exp2 {
+    background-color: #1a1c1e;
+    border-radius: 25px;
+    width: 325px;
+    height: 175px;
+    padding: 10px;
+    border: 2px solid #383838;
+    margin: 0;
+
+    position: absolute;
+    left: 56%;
+    top: 60%;
+}
+.gearicon{
+    width: auto;
+    height: 50px;
+}
+.bot {
+    font-family: "proxima";
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    left: 25%;
+    top: 2%;
+
+}
+
+.bot-txt {
+    align-content: center;
+    font-family: "proxima";
+    color: white;
+}
+
+.txt {
+    align-content: center;
+    font-family: "proxima";
+    color: white;
+}

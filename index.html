@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dean's portfolio</title>
+    <link rel="stylesheet" href="Assets/css/stylesheet.css">
+    <link rel="stylesheet" href="Assets/css/stylesheet2.css">
+    <link rel="stylesheet" href="Assets/css/scrollbar.css">
+    <link rel="stylesheet" href="Assets/css/rainbowtext.css">
+    <link rel="stylesheet" href="Assets/css/popup.css">
+</head>
+<body>
+    <h3 class="Wbs">Website version 3.2</h3>
+    <div class="info">
+        <center><img src="Assets/css/images/pfp.png" class="Profile"></center>
+        <div class="name rainbow">Dean</div>
+        <div class="posision">Programmer</div>
+        <a href="mailto:owner@dean.rf.gd"><button class="gmail center2"><img src="Assets/css/images/email.jpg" class="gmailimg"></button></a>    
+        <button class="discord center popup" onclick="popup()">
+            <img src="Assets/css/images/discord.png" class="discordimg">
+            <span class="popuptext" id="myPopup">My discord is "dea.n."</span>
+        </button><a href="https://github.com/Paasdag"><button class="github center3"><img src="Assets/css/images/github.png" class="githubimg"></button></a>
+    </div>
+
+    <div class="aboutme">
+        <h1 class="abtme">About Me</h1>
+        <h3 class="me">hello, I am Dean i am from the netherlands and i love coding and gaming, Im trying to learn a few coding languages like Java, I can code simple plugins using the spigot api and i wish to become a great developer and hopefully make this my future.</h3>
+        <h1 class="Exp">What i can do</h1>
+        <div class="exp1">
+            <img src="Assets/css/images/programming.png" class="programmingicon">
+            <h1 class="progamming">Programming</h1>
+            <h2 class="txt">I can code in multiple languages for example, Python, Java, Html, Css.</h2>
+        </div>
+        <div class="exp2">
+            <img src="Assets/css/images/gear.png" class="gearicon">
+            <h1 class="bot">Bot Development</h1>
+            <h2 class="bot-txt">I can code Discord-Bot's in Python, i am willing to code one with payment</h2>
+        </div>
+    </div>
+
+    <script>
+        function popup() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
